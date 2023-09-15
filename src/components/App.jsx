@@ -1,5 +1,4 @@
-import { Routes, Route, NavLink } from 'react-router-dom';
-import StarrySky from './StarrySky';
+import { Routes, Route} from 'react-router-dom';
 import { Mercury } from 'pages/Mercury/Mercury';
 import { Earth } from 'pages/Earth/Earth';
 import { Venus } from 'pages/Venus/Venus';
