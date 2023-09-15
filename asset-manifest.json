@@ -1,13 +1,34 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.0b7c0a4d.js",
+    "main.js": "/react-homework-template/static/js/main.9891d624.js",
+    "static/media/geology-venus.svg": "/react-homework-template/static/media/geology-venus.2fc9059c1e23c7e9114cee5b8ebb35ec.svg",
+    "static/media/jupiter-geology.svg": "/react-homework-template/static/media/jupiter-geology.43d17a1aad31cdf38165ee400ef9a883.svg",
+    "static/media/geology-mercury.svg": "/react-homework-template/static/media/geology-mercury.c27a0e8fdf08764871c85f5edff0344a.svg",
+    "static/media/geology-uranus.svg": "/react-homework-template/static/media/geology-uranus.127b9bf9b05d88628118e8941a0aa6a5.svg",
+    "static/media/geology-earth.svg": "/react-homework-template/static/media/geology-earth.84fd40881111375d44f10556c60283db.svg",
+    "static/media/geology-mars.svg": "/react-homework-template/static/media/geology-mars.cd4f19b803d0f2852e21a1e757d0348f.svg",
+    "static/media/geology-saturn.svg": "/react-homework-template/static/media/geology-saturn.379a8e9fad5e56124ae85b085e6fe508.svg",
+    "static/media/geology-neptune.svg": "/react-homework-template/static/media/geology-neptune.6e1d16daa1069b106a0beebcd2950457.svg",
+    "static/media/planet-jupiter-internal.svg": "/react-homework-template/static/media/planet-jupiter-internal.3087313dbe63fee4c2e97d2c480d6add.svg",
+    "static/media/planet-earth-internal.svg": "/react-homework-template/static/media/planet-earth-internal.3c465186cd11e28615059f051f8ab2c6.svg",
+    "static/media/planet-earth.svg": "/react-homework-template/static/media/planet-earth.4d12af96d901006c0b9499208a32daf6.svg",
+    "static/media/planet-jupiter.svg": "/react-homework-template/static/media/planet-jupiter.b1d0956b70a8ccb39f171a258ccd98fd.svg",
+    "static/media/planet-uranus-internal.svg": "/react-homework-template/static/media/planet-uranus-internal.578233c62999b0e1bec2f707bbeb999f.svg",
+    "static/media/planet-neptune-internal.svg": "/react-homework-template/static/media/planet-neptune-internal.3ebd623e9cc13840612d8acde5d59ab5.svg",
+    "static/media/planet-uranus.svg": "/react-homework-template/static/media/planet-uranus.e91b297f96590dd142495611a1207397.svg",
+    "static/media/planet-neptune.svg": "/react-homework-template/static/media/planet-neptune.af32296149ca9824ac1aa92201a6be37.svg",
+    "static/media/planet-saturn-internal.svg": "/react-homework-template/static/media/planet-saturn-internal.e883c55958ad2299ab4ea1674cc8382c.svg",
+    "static/media/planet-saturn.svg": "/react-homework-template/static/media/planet-saturn.801f886ad467514e2c016ac7c4bfa271.svg",
+    "static/media/planet-venus-internal.svg": "/react-homework-template/static/media/planet-venus-internal.1a94aa02c54e1742e5c53e0a2ae9056b.svg",
+    "static/media/planet-venus.svg": "/react-homework-template/static/media/planet-venus.db5a344418797845ce8f0924814a193b.svg",
+    "static/media/planet-mars-internal.svg": "/react-homework-template/static/media/planet-mars-internal.d867ac804b24a57bcc34c60ca5c634c8.svg",
+    "static/media/planet-mars.svg": "/react-homework-template/static/media/planet-mars.f9dc1ca45a888b568829cd38ca525dcb.svg",
+    "static/media/planet-mercury-internal.svg": "/react-homework-template/static/media/planet-mercury-internal.d1be143201898fac437968baae616e6b.svg",
+    "static/media/planet-mercury.svg": "/react-homework-template/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.0b7c0a4d.js.map": "/react-homework-template/static/js/main.0b7c0a4d.js.map"
+    "main.9891d624.js.map": "/react-homework-template/static/js/main.9891d624.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.0b7c0a4d.js"
+    "static/js/main.9891d624.js"
   ]
 }
