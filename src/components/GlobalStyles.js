@@ -25,6 +25,11 @@ const GlobalStyles = createGlobalStyle`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
 #sky {
   width: 100vw;
@@ -35,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
 }
 
-#shootingstars {
+${'' /* #shootingstars {
   margin: 0;
   padding: 0;
   width: 150vh;
@@ -44,6 +49,15 @@ const GlobalStyles = createGlobalStyle`
   overflow: hidden;
   transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%))
     rotate(120deg);
+} */}
+#shootingstars {
+  margin: 0;
+  padding: 0;
+  width: 150vh;
+  height: 100vw;
+  position: fixed;
+  overflow: hidden;
+  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%)) rotate(120deg);
 }
 
 .wish {
@@ -59,7 +73,6 @@ const GlobalStyles = createGlobalStyle`
   filter: drop-shadow(0 0 6px white);
   overflow: hidden;
 }
-
 
 
 .app-overlay {
