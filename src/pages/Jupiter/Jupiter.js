@@ -22,7 +22,7 @@ import {
   Title,
 } from './JupiterStyled';
 
-export const Jupiter = () => {
+const Jupiter = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Jupiter = () => {
     </>
   );
 };
+export default Jupiter

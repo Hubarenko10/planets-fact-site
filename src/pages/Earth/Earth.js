@@ -22,7 +22,7 @@ import {
   Title,
 } from './EarthStyled';
 
-export const Earth = () => {
+const Earth = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Earth = () => {
     </>
   );
 };
+export default Earth

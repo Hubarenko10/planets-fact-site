@@ -1,15 +1,15 @@
+import {lazy} from "react"
 import { Routes, Route} from 'react-router-dom';
-import { Mercury } from 'pages/Mercury/Mercury';
-import { Earth } from 'pages/Earth/Earth';
-import { Venus } from 'pages/Venus/Venus';
-import { Mars } from 'pages/Mars/Mars';
-import { Jupiter } from 'pages/Jupiter/Jupiter';
-import { Saturn } from 'pages/Saturn/Saturn';
-import { Uranus } from 'pages/Uranus/Uranus';
-import { Neptune } from 'pages/Neptune/Neptune';
 import { SharedLayout } from './SharedLayout';
 
-
+const Mercury = lazy(() => import("../pages/Mercury/Mercury"));
+const Earth = lazy(() => import("../pages/Earth/Earth"));
+const Venus = lazy(() => import("../pages/Venus/Venus"));
+const Mars = lazy(() => import("../pages/Mars/Mars"));
+const Jupiter = lazy(() => import("../pages/Jupiter/Jupiter"));
+const Saturn = lazy(() => import("../pages/Saturn/Saturn"));
+const Uranus = lazy(() => import("../pages/Uranus/Uranus"));
+const Neptune = lazy(() => import("../pages/Neptune/Neptune"));
 
 export const App = () => {
   return (

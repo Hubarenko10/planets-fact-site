@@ -22,7 +22,7 @@ import {
   Title,
 } from './NeptuneStyled';
 
-export const Neptune = () => {
+const Neptune = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Neptune = () => {
     </>
   );
 };
+export default Neptune

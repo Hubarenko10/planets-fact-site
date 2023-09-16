@@ -22,7 +22,7 @@ import {
   Title,
 } from './MercuryStyled';
 
-export const Mercury = () => {
+const Mercury = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Mercury = () => {
     </>
   );
 };
+export default Mercury

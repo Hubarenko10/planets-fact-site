@@ -22,7 +22,7 @@ import {
   Title,
 } from './SaturnStyled';
 
-export const Saturn = () => {
+const Saturn = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Saturn = () => {
     </>
   );
 };
+export default Saturn

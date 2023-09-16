@@ -22,7 +22,7 @@ import {
   Title,
 } from './VenusStyled';
 
-export const Venus = () => {
+ const Venus = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Venus = () => {
     </>
   );
 };
+export default Venus;

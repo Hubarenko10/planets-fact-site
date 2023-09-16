@@ -22,7 +22,7 @@ import {
   Title,
 } from './MarsStyled';
 
-export const Mars = () => {
+const Mars = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Mars = () => {
     </>
   );
 };
+export default Mars

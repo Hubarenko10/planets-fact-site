@@ -22,7 +22,7 @@ import {
   Title,
 } from './UranusStyled';
 
-export const Uranus = () => {
+const Uranus = () => {
   const {
     name,
     overview,
@@ -127,3 +127,4 @@ export const Uranus = () => {
     </>
   );
 };
+export default Uranus
