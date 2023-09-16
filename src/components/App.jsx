@@ -18,6 +18,7 @@ export const App = () => {
 
       <Routes>
       <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Earth />} />
         <Route path="/mercury" element={<Mercury />} />
         <Route path="/venus" element={<Venus />} />
         <Route path="/earth" element={<Earth />} />

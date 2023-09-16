@@ -6,7 +6,7 @@ import GlobalStyles from 'components/GlobalStyles';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='planets-fact-site'>
     <GlobalStyles/>
     <App />
     </BrowserRouter>
