@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/react-homework-template/static/js/main.9ea06f28.js",
+    "main.js": "/react-homework-template/static/js/main.91945cf8.js",
     "static/media/geology-venus.svg": "/react-homework-template/static/media/geology-venus.2fc9059c1e23c7e9114cee5b8ebb35ec.svg",
     "static/media/jupiter-geology.svg": "/react-homework-template/static/media/jupiter-geology.43d17a1aad31cdf38165ee400ef9a883.svg",
     "static/media/geology-mercury.svg": "/react-homework-template/static/media/geology-mercury.c27a0e8fdf08764871c85f5edff0344a.svg",
@@ -26,9 +26,9 @@
     "static/media/planet-mercury-internal.svg": "/react-homework-template/static/media/planet-mercury-internal.d1be143201898fac437968baae616e6b.svg",
     "static/media/planet-mercury.svg": "/react-homework-template/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/react-homework-template/index.html",
-    "main.9ea06f28.js.map": "/react-homework-template/static/js/main.9ea06f28.js.map"
+    "main.91945cf8.js.map": "/react-homework-template/static/js/main.91945cf8.js.map"
   },
   "entrypoints": [
-    "static/js/main.9ea06f28.js"
+    "static/js/main.91945cf8.js"
   ]
 }
