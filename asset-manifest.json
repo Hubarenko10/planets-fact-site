@@ -1,6 +1,15 @@
 {
   "files": {
-    "main.js": "/react-homework-template/static/js/main.91945cf8.js",
+    "main.js": "/react-homework-template/static/js/main.f5d7ada8.js",
+    "static/js/256.a3b4748f.chunk.js": "/react-homework-template/static/js/256.a3b4748f.chunk.js",
+    "static/js/46.5157682a.chunk.js": "/react-homework-template/static/js/46.5157682a.chunk.js",
+    "static/js/714.e53888db.chunk.js": "/react-homework-template/static/js/714.e53888db.chunk.js",
+    "static/js/521.09896a8c.chunk.js": "/react-homework-template/static/js/521.09896a8c.chunk.js",
+    "static/js/956.eb8863de.chunk.js": "/react-homework-template/static/js/956.eb8863de.chunk.js",
+    "static/js/559.093f8e3e.chunk.js": "/react-homework-template/static/js/559.093f8e3e.chunk.js",
+    "static/js/990.db95c627.chunk.js": "/react-homework-template/static/js/990.db95c627.chunk.js",
+    "static/js/295.20a9de71.chunk.js": "/react-homework-template/static/js/295.20a9de71.chunk.js",
+    "static/js/977.025f6e27.chunk.js": "/react-homework-template/static/js/977.025f6e27.chunk.js",
     "static/media/geology-venus.svg": "/react-homework-template/static/media/geology-venus.2fc9059c1e23c7e9114cee5b8ebb35ec.svg",
     "static/media/jupiter-geology.svg": "/react-homework-template/static/media/jupiter-geology.43d17a1aad31cdf38165ee400ef9a883.svg",
     "static/media/geology-mercury.svg": "/react-homework-template/static/media/geology-mercury.c27a0e8fdf08764871c85f5edff0344a.svg",
@@ -26,9 +35,18 @@
     "static/media/planet-mercury-internal.svg": "/react-homework-template/static/media/planet-mercury-internal.d1be143201898fac437968baae616e6b.svg",
     "static/media/planet-mercury.svg": "/react-homework-template/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/react-homework-template/index.html",
-    "main.91945cf8.js.map": "/react-homework-template/static/js/main.91945cf8.js.map"
+    "main.f5d7ada8.js.map": "/react-homework-template/static/js/main.f5d7ada8.js.map",
+    "256.a3b4748f.chunk.js.map": "/react-homework-template/static/js/256.a3b4748f.chunk.js.map",
+    "46.5157682a.chunk.js.map": "/react-homework-template/static/js/46.5157682a.chunk.js.map",
+    "714.e53888db.chunk.js.map": "/react-homework-template/static/js/714.e53888db.chunk.js.map",
+    "521.09896a8c.chunk.js.map": "/react-homework-template/static/js/521.09896a8c.chunk.js.map",
+    "956.eb8863de.chunk.js.map": "/react-homework-template/static/js/956.eb8863de.chunk.js.map",
+    "559.093f8e3e.chunk.js.map": "/react-homework-template/static/js/559.093f8e3e.chunk.js.map",
+    "990.db95c627.chunk.js.map": "/react-homework-template/static/js/990.db95c627.chunk.js.map",
+    "295.20a9de71.chunk.js.map": "/react-homework-template/static/js/295.20a9de71.chunk.js.map",
+    "977.025f6e27.chunk.js.map": "/react-homework-template/static/js/977.025f6e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.91945cf8.js"
+    "static/js/main.f5d7ada8.js"
   ]
 }
