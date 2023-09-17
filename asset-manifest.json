@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/planets-fact-site/static/js/main.68812fdd.js",
-    "static/js/256.a3b4748f.chunk.js": "/planets-fact-site/static/js/256.a3b4748f.chunk.js",
-    "static/js/46.5157682a.chunk.js": "/planets-fact-site/static/js/46.5157682a.chunk.js",
-    "static/js/714.e53888db.chunk.js": "/planets-fact-site/static/js/714.e53888db.chunk.js",
-    "static/js/521.09896a8c.chunk.js": "/planets-fact-site/static/js/521.09896a8c.chunk.js",
-    "static/js/956.eb8863de.chunk.js": "/planets-fact-site/static/js/956.eb8863de.chunk.js",
-    "static/js/559.093f8e3e.chunk.js": "/planets-fact-site/static/js/559.093f8e3e.chunk.js",
-    "static/js/990.db95c627.chunk.js": "/planets-fact-site/static/js/990.db95c627.chunk.js",
-    "static/js/295.20a9de71.chunk.js": "/planets-fact-site/static/js/295.20a9de71.chunk.js",
+    "main.js": "/planets-fact-site/static/js/main.4b8ba4af.js",
+    "static/js/256.276fe6ef.chunk.js": "/planets-fact-site/static/js/256.276fe6ef.chunk.js",
+    "static/js/610.ff3c61ea.chunk.js": "/planets-fact-site/static/js/610.ff3c61ea.chunk.js",
+    "static/js/714.e12aa432.chunk.js": "/planets-fact-site/static/js/714.e12aa432.chunk.js",
+    "static/js/521.11829284.chunk.js": "/planets-fact-site/static/js/521.11829284.chunk.js",
+    "static/js/956.e6065087.chunk.js": "/planets-fact-site/static/js/956.e6065087.chunk.js",
+    "static/js/559.8396714c.chunk.js": "/planets-fact-site/static/js/559.8396714c.chunk.js",
+    "static/js/990.08323e9f.chunk.js": "/planets-fact-site/static/js/990.08323e9f.chunk.js",
+    "static/js/295.1f6a09e7.chunk.js": "/planets-fact-site/static/js/295.1f6a09e7.chunk.js",
     "static/js/977.025f6e27.chunk.js": "/planets-fact-site/static/js/977.025f6e27.chunk.js",
     "static/media/geology-venus.svg": "/planets-fact-site/static/media/geology-venus.2fc9059c1e23c7e9114cee5b8ebb35ec.svg",
     "static/media/jupiter-geology.svg": "/planets-fact-site/static/media/jupiter-geology.43d17a1aad31cdf38165ee400ef9a883.svg",
@@ -35,18 +35,18 @@
     "static/media/planet-mercury-internal.svg": "/planets-fact-site/static/media/planet-mercury-internal.d1be143201898fac437968baae616e6b.svg",
     "static/media/planet-mercury.svg": "/planets-fact-site/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/planets-fact-site/index.html",
-    "main.68812fdd.js.map": "/planets-fact-site/static/js/main.68812fdd.js.map",
-    "256.a3b4748f.chunk.js.map": "/planets-fact-site/static/js/256.a3b4748f.chunk.js.map",
-    "46.5157682a.chunk.js.map": "/planets-fact-site/static/js/46.5157682a.chunk.js.map",
-    "714.e53888db.chunk.js.map": "/planets-fact-site/static/js/714.e53888db.chunk.js.map",
-    "521.09896a8c.chunk.js.map": "/planets-fact-site/static/js/521.09896a8c.chunk.js.map",
-    "956.eb8863de.chunk.js.map": "/planets-fact-site/static/js/956.eb8863de.chunk.js.map",
-    "559.093f8e3e.chunk.js.map": "/planets-fact-site/static/js/559.093f8e3e.chunk.js.map",
-    "990.db95c627.chunk.js.map": "/planets-fact-site/static/js/990.db95c627.chunk.js.map",
-    "295.20a9de71.chunk.js.map": "/planets-fact-site/static/js/295.20a9de71.chunk.js.map",
+    "main.4b8ba4af.js.map": "/planets-fact-site/static/js/main.4b8ba4af.js.map",
+    "256.276fe6ef.chunk.js.map": "/planets-fact-site/static/js/256.276fe6ef.chunk.js.map",
+    "610.ff3c61ea.chunk.js.map": "/planets-fact-site/static/js/610.ff3c61ea.chunk.js.map",
+    "714.e12aa432.chunk.js.map": "/planets-fact-site/static/js/714.e12aa432.chunk.js.map",
+    "521.11829284.chunk.js.map": "/planets-fact-site/static/js/521.11829284.chunk.js.map",
+    "956.e6065087.chunk.js.map": "/planets-fact-site/static/js/956.e6065087.chunk.js.map",
+    "559.8396714c.chunk.js.map": "/planets-fact-site/static/js/559.8396714c.chunk.js.map",
+    "990.08323e9f.chunk.js.map": "/planets-fact-site/static/js/990.08323e9f.chunk.js.map",
+    "295.1f6a09e7.chunk.js.map": "/planets-fact-site/static/js/295.1f6a09e7.chunk.js.map",
     "977.025f6e27.chunk.js.map": "/planets-fact-site/static/js/977.025f6e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.68812fdd.js"
+    "static/js/main.4b8ba4af.js"
   ]
 }
