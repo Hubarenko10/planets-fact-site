@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import { HiExternalLink } from 'react-icons/hi';
 
 
@@ -12,6 +12,21 @@ export const Image = styled.img`
   height: 450px;
   margin-right:220px; 
   padding-top:36px; 
+  transform: translateY(100%); 
+  animation: bounceIn 0.8s ease forwards; 
+
+ 
+  @keyframes bounceIn {
+    0% {
+      transform: translateY(100%) scale(0.2); 
+    }
+    80% {
+      transform: translateY(-10%) scale(1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1); 
+    }
+  }
 `;
 
 export const InfoBox = styled.div`
@@ -28,6 +43,16 @@ export const Title = styled.h1`
   font-size: 80px;
   padding-right: 339px;
   margin-bottom: 25px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Info = styled.p`
@@ -117,4 +142,9 @@ export const Data = styled.span`
   font-size: 40px;
   padding-left: 23px;
   letter-spacing: -1.5px;
+`;
+export const Unit = styled.span`
+  color: #fff;
+  font-size: 40px;
+  margin-left: 10px;
 `;

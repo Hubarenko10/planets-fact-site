@@ -11,6 +11,21 @@ export const Image = styled.img`
   height: 290px;
   margin-right:300px; 
   padding-top:116px; 
+  transform: translateY(100%); 
+  animation: bounceIn 0.8s ease forwards; 
+
+ 
+  @keyframes bounceIn {
+    0% {
+      transform: translateY(100%) scale(0.2); 
+    }
+    80% {
+      transform: translateY(-10%) scale(1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1); 
+    }
+  }
 `;
 
 export const InfoBox = styled.div`
@@ -27,6 +42,16 @@ export const Title = styled.h1`
   font-size: 80px;
   padding-right: 252px;
   margin-bottom: 25px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Info = styled.p`

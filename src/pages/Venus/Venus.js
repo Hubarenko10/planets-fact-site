@@ -1,6 +1,6 @@
 import StarrySky from 'components/StarrySky';
 import data from '../../data.json';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ven from '../../images/planet-venus.svg';
 import internal from '../../images/planet-venus-internal.svg';
 import geo from '../../images/geology-venus.svg';
@@ -21,6 +21,7 @@ import {
   Number,
   Title,
 } from './VenusStyled';
+import { Unit } from 'pages/Earth/EarthStyled';
 
  const Venus = () => {
   const {
@@ -64,8 +65,47 @@ import {
     setCurrentLink(link);
     setCurrentText(text);
   };
+  const formatNumber = value => {
+    const floatValue = parseFloat(value);
+    const roundedValue = Math.round(floatValue * 100) / 100; // Округляем до двух знаков после запятой
+    return roundedValue % 1 !== 0
+      ? roundedValue.toFixed(2)
+      : String(roundedValue);
+  };
 
-  console.log();
+  useEffect(() => {
+    const animateNumber = (initialValue, targetValue, elementId) => {
+      const element = document.getElementById(elementId);
+      let currentValue = parseFloat(initialValue.replace(/[^\d.-]/g, ''));
+      const targetNumber = parseFloat(targetValue.replace(/[^\d.-]/g, ''));
+      const increment = (targetNumber - currentValue) / 100;
+
+      const updateNumber = () => {
+        if (
+          (increment > 0 && currentValue >= targetNumber) ||
+          (increment < 0 && currentValue <= targetNumber)
+        ) {
+          clearInterval(interval);
+          currentValue = targetNumber;
+        } else {
+          currentValue += increment;
+          element.innerText = formatNumber(currentValue);
+        }
+      };
+
+      const interval = setInterval(updateNumber, 5);
+
+      return () => {
+        clearInterval(interval);
+      };
+    };
+
+    animateNumber('0', rotation, 'animatedRotation');
+    animateNumber('0', revolution, 'animatedRevolution');
+    animateNumber('0', radius, 'animatedRadius');
+    animateNumber('0', temperature, 'animatedNumber');
+  }, [rotation, revolution, radius, temperature]);
+
   return (
     <>
       <StarrySky />
@@ -108,19 +148,31 @@ import {
         <CommonInfoList>
           <CommonInfo>
             <CommonText>Rotation Time</CommonText>
-            <Data>{rotation}</Data>
+            <div>
+              <Data id="animatedRotation">{rotation} Days</Data>
+              <Unit>Days</Unit>
+            </div>
           </CommonInfo>
           <CommonInfo>
             <CommonText>Revolution Time</CommonText>
-            <Data>{revolution}</Data>
+            <div>
+              <Data id="animatedRevolution"> {revolution} </Data>
+              <Unit>Days</Unit>
+            </div>
           </CommonInfo>
           <CommonInfo>
             <CommonText>Radius</CommonText>
-            <Data>{radius}</Data>
+            <div>
+              <Data id="animatedRadius">{radius}</Data>
+              <Unit>KM</Unit>
+            </div>
           </CommonInfo>
           <CommonInfo>
             <CommonText>Average temp</CommonText>
-            <Data>{temperature}</Data>
+            <div>
+              <Data id="animatedNumber">{temperature}</Data>
+              <Unit>°c</Unit>
+            </div>
           </CommonInfo>
         </CommonInfoList>
       </Container>
